@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Cervice facebook cua NQTrieu 10/7</title>
+	<link rel="stylesheet"type="text/css" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"> <!-- use font awesome -->
+  <link rel="stylesheet" type="text/css" href="http://glyphicons.com">
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script&amp;subset=vietnamese" rel="stylesheet">
+  
+</head>
+<style type="text/css">
+*
+{
+	box-sizing: border-box;
+}
+
+html,body
+{
+	font-family:  Helvetica, Arial, Tahoma, sans-serif;
+	margin:0 auto;
+  font-size: 16px;
+  background: #8685d414;
+   height: 700px;
+} 
+#boxwidth
+{
+ border:1px solid white;
+ width:1250px;
+ height:320px;
+ background-color: lightblue;
+ margin-left:40px;
+ margin-right:30px;
+ position: relative;
+}
+#cover-image /*ảnh bìa*/
+{
+  background-repeat: no-repeat;
+  top:0px;
+  position: absolute;
+  left:0;
+}
+#avatar {
+ border:5px solid white;
+ position: absolute;
+ left:30px;
+ bottom: 20px;
+ width:170px;
+ height: 190px;
+ z-index: 2;
+}
+#avatar .img-avatar{
+  width: 100%;
+  height: 100%;
+}
+#name
+{
+ width: 200px;
+ height: 50px;
+ position: absolute;
+ bottom: 70px;
+ left: 226px;
+ font-size: 24px;
+ font-weight: bold;
+ color: #fff;
+}
+#name div {
+  font-size: 20px;
+  font-weight: normal;
+  padding-top: 4px;
+  font-style: normal;
+  padding-left: 9px;
+}
+.nav {
+ z-index: 1;
+}
+.nav ul {
+ list-style-type: none;
+ overflow: hidden;
+ background-color: white;
+ width:1250px;
+ left: 200px;
+ margin-top:270px;
+ height: 50px;
+ border-bottom: 1px solid #0000005e;
+ padding-left:230px;
+ border-left: 1px solid #0000005e;
+ border-right: 1px solid #0000005e;
+
+}
+.nav ul li {
+  float: left;
+  border-right :0.5px solid #607d8b80; /*kẻ vạch cho menu*/
+  border-left: 0.5px solid #607d8b80;
+  margin:0 auto;
+  padding-right: 19px;
+  padding-left: 19px;
+  left:50px;
+  
+}
+.nav ul li a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  padding:16px 14px;
+  font-weight: bold;
+  color:blue;
+}
+.sidebar
+{ float:left;
+ width:28%;
+}
+
+.sidebar-1 h3 {
+  text-align: center;
+  color:black;
+}
+.sidebar-1 p {
+  text-align: center;
+}
+.iconintro  {
+  font-weight:normal;
+}
+
+.sidebar .sidebar-1 {
+  border:1px solid black;
+  height:300px;
+  margin-top: 15px;
+  margin-left: 40px;
+}
+.sidebar .sidebar-2 {
+  border:1px solid black;
+  height:500px;
+  margin-top:20px;
+  margin-left: 40px;
+}
+.sidebar .sidebar-2 
+.section {
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  color: brown;
+}
+/* end side bar */
+.main-content
+{
+  width:69%;
+  border: 1px solid black;
+  height:330%;
+  position: absolute; /* chi can absolute là du */
+  top: 335px; 
+  right: 20px;
+  margin-left:25px;
+  border-bottom: 4px solid black;
+}
+.main-content-1{
+  border: 1px dashed blue;
+  width:850px;
+  height: 120px;
+  margin: 0 auto;
+  margin-top:20px;
+  position: relative;
+}
+.main-content-1 h5
+{
+  color:black;
+  margin-top:4px;
+  font-style: normal;
+
+}
+.main-content-1 h4
+{
+  position: absolute;
+  border:2px solid blue;
+  bottom:0px;
+  width:50px;
+  color:black;
+  width:80px;
+  background-color: lightblue;
+  right:0px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+.main-content-1 .icon
+{
+  color:black;
+  display:inline-block;
+  bottom: 0px;
+  position: absolute;
+  font-size: 18px;
+}
+.main-content-2 {
+  border: 1px solid blue;
+  width:881px;
+  height: 90%;
+  margin: 0 auto;
+  margin-top:20px;
+  position: relative;
+}
+.main-content-2 p {
+  text-align: center;
+  font-weight: bold;
+  color: red;
+}
+.main-content-2 span {
+ font-family: 'Pattaya', sans-serif;
+ font-family: 'Sedgwick Ave', cursive;
+ font-size: 20px;
+
+}
+.imagecenter {
+  margin:0 auto;
+  margin-left:10px;
+  
+}
+.doantho {
+  text-align: center;
+  font-size: 20px;
+  font-family: Tahoma;
+  color:green;
+}
+.cuoi{
+    background: #191717bf;
+    width: 1500px;
+    height: 100px;
+    color: red;
+    position: absolute;
+    clear: both;
+    margin-top: 158%;
+    display: block;
+}
+.cuoi h2{
+ text-align: center;
+    color: #a5a22a;
+    font-size: 16px;
+    padding: 25px;
+    margin-left: -133px;
+}
+</style>
+<body>
+
+  <div id ="boxwidth">
+    <div id ="cover-image">
+      <img src="http://quathatchat.com/wp-content/uploads/2017/12/anh-bia-facebook-dep-nhat.jpg" width="1249px" height="270px">
+    </div>
+    <!--#cover-image  -->
+    <div id="avatar">
+      <a href="https://2.bp.blogspot.com/-ZMadJUm_A2Y/WMeymaCrtxI/AAAAAAAAAYg/dD8Qe2xNlzQogYt3hx2wdEx-oa8L9wCPQCLcB/s320/ephoto360.com-lol-rank-58c7b221bf33d.jpg"><img src="https://2.bp.blogspot.com/-ZMadJUm_A2Y/WMeymaCrtxI/AAAAAAAAAYg/dD8Qe2xNlzQogYt3hx2wdEx-oa8L9wCPQCLcB/s1600/ephoto360.com-lol-rank-58c7b221bf33d.jpg" class="img-avatar" ></a>
+    </div>
+    <!-- #avatar -->
+    <div id="name">
+      <span> Nguyễn Triệu</span>
+      <div>
+        (Natimily)
+      </div>
+    </div>
+    <!-- #name -->
+    <div class="nav">
+      <ul>
+        <li><a href="#">Timeline <i class="fas fa-caret-down"></i></a></li>
+        <li><a href="#">About </a></li>
+        <li><a href="#">Friend </a></li>
+        <li><a href="#">Photo </a></li>
+        <li><a href="#">More <i class="fas fa-caret-down"></i> </a></li>
+        <ul>
+        </div>  
+        <!-- #nav  -->
+      </div>
+      <!-- #boxwidth -->
+
+      
+      <div class="sidebar">
+        <div class="sidebar-1">
+          <h2>&nbsp;<i class="fas fa-globe-asia" style="color:blue;">&nbsp;</i>Introduction </h2>
+          <p> 🐶Code and Gamer is fun. But I really like than play game ️🌝🌝🌚! </p> <br>
+          <hr>
+          <i class="fas fa-graduation-cap"></i>Learn Information Technology at <span style="color:blue;font-weight:normal;text-decoration: underline;">ĐHKH Tự Nhiên( 2016 - ...) </span><br>
+          &nbsp;<i class="fas fa-store"></i>Live in  <span style="color:blue;font-weight:normal;text-decoration: underline;">Ho Chi Minh city </span></br>
+          &nbsp;<i class="fas fa-bicycle"></i>From to  <span style="color:blue;font-weight:normal;text-decoration: underline;"> AG Province </span></br>
+          &nbsp; <i class="fas fa-map-marker-alt"></i> Worked at <span style="color:blue;font-weight:normal;text-decoration: underline;"> Ho Chi Minh city</span>    
+        </div>
+        <!-- #sidebar1 -->
+
+        <div class="sidebar-2">
+          <h2 style=""> &nbsp;<i class="fas fa-bong"> &nbsp;Skill</i> </h2>
+
+          <!-- My Skills section start -->
+          <div class="section">
+            <ul>
+              <li>HTML <br />
+                <progress min="0" max="100" value="40"></progress>
+              </li> <br>
+              <li>CSS <br />
+                <progress min="0" max="100" value="25"></progress>
+              </li>
+              <li>JS <br />
+                <progress min="0" max="100" value="10"></progress>
+              </li> <br>
+    
+              <li>English<br />
+                <progress min="0" max="100" value="20"></progress>
+              </li>
+            </ul>
+          </div>
+          <!-- My Skills section end -->
+
+        </div>
+        <!-- #sidebar-2 -->
+
+        
+          <div class="main-content">
+           <div class="main-content-1">
+            <h5>🌹 Bạn đang nghĩ gì?</h5>
+            <h4> Post </h4>
+            <span class="icon">📷</i>Photo/Video</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="icon" >🌈 Feeling/Activity &nbsp;&nbsp;&nbsp;🗻🗻🗻🗻🗻🗻🗻🗻🗻🗻🗻🗻🗻🗻</span>
+
+          </div>
+          <!-- #main-content-1 -->
+          <div class="main-content-2">
+
+           <p>🍂ĐỢI NGƯỜI KHI MÙA HOA GẠO NỞ </p>
+
+<div class="doantho">    Có lẽ một ngày rồi em cũng quên anh<br>
+
+Ta lại trở về như lúc mình chưa đến<br>
+
+Nhưng lần sau gặp chắc không còn bịn rịn<br>
+
+Bởi mùa yêu thương đã lỗi hẹn qua rồi… <br> <br> <br>
+<img class="imagecenter" src = "C:\Users\USER\Downloads\doi-nguoi-khi-mua-hoa-gao-no.jpg" width="700px" height="200px"> <br> <br> <br>
+
+Hoa đẹp, hoa thơm hoa vẫn tàn<br>
+
+Tình nặng, tình sâu tình vẫn tan<br>
+
+Rượu đắng, rượu cay rượu vẫn hết<br>
+
+Người hứa người thề người vẫn quên !<br><br><br>
+
+<hr>
+Giữa thế giới rộng lớn này<br>
+
+Giữa dòng người tấp nập<br>
+
+Em vô tình gặp được anh<br>
+
+Nhưng hai ta lướt qua như người xa lạ<br>
+
+Bổng đâu dòng lệ chợt tuôn rơi<br>
+
+Có phải em đã bị lãng quên bởi quá khứ<br>
+
+Hay chỉ là vô tình  <br><br><br>
+
+
+
+<hr>
+Hạnh phúc mong manh ,dễ thành nhưng dễ vỡ<br>
+
+Cuộc sống vô vị, dễ cười lại dễ đau<br>
+
+Ko có gì tồn tại đc lâu dài ,đó là lí do tại sao con người phải chết…<br>
+Hoa đẹp hoa thơm hoa vẫn tàn.
+
+Mộng đẹp bao lâu đã vội tan. <br>
+
+Mưa bụi triền miên lệ hồng nhan. <br>
+
+Trầm ngâm tiếng gió lòng đau nhói. <br>
+
+Hồi ức khi xưa khắc trăng tàn. <br>
+
+Sầu tư lặng lẽ ngàn dặm lý. <br>
+
+Chìm vào giấc mộng đẹp cuồng si. <br>
+
+Kiếp này thôi đã không tìm kiếm. <br>
+
+Dung nhan héo úa sớm phai tàn. <br>
+
+Tiếng thở dài mình em cô lẽ. <br>
+ 
+Lãnh đạm kia bỗng hoá cuộc vui. <br>
+
+Quá khứ giờ chỉ còn hoa trong mộng. <br>
+
+Cô độc bút vẽ đôi uyên ương hạnh phúc. <br>
+
+Là tự em vẫn mãi đa tình. <br>
+
+Tấm chân tình trao người, người không hiểu. <br>
+
+Mối tình kia bỗng chốc hoá làn mưa… <br> <br> <br>
+<img class="imagecenter" src = "http://bogoslov.org/wp-content/uploads/2015/10/depress.jpg" width="700px" height="200px"> <br> <br> <br>
+
+Trăng đã ngủ xin đừng đánh thức <br>
+
+Tình đã chết rồi nhắc lại thêm đau <br>
+
+Tay ôm nửa mảnh trăng sầu <br>
+
+Có yêu mới biết tình đầu khó quên <br>
+
+Lửa đã tắt, làm sao cháy lại <br>
+
+Chia tay rồi, mãi mãi là xa <br>
+
+Trời hết mưa, chưa hẳn đã nắng
+ <br>
+Kết thúc rồi, chưa hẳn là hết yêu!
+ <br>
+</div>
+<!-- #doantho-->
+</div>  
+<!-- #main-content -2-->
+
+</div><!-- #main-content -->
+</div> <!-- #sidebar -->
+<center><div class="cuoi"> <h2>  Powered by Nguyen Trieu @2018.</h2>
+</div></center>
+</body>
+</html>
