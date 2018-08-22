@@ -13,7 +13,7 @@
 	box-sizing: border-box;
 }
 
-html,body
+body
 {
 	font-family:  Helvetica, Arial, Tahoma, sans-serif;
 	margin:0 auto;
@@ -39,7 +39,7 @@ html,body
   left:0;
 }
 #avatar {
- border:5px solid white;
+ border:8px solid #ab882abd;
  position: absolute;
  left:30px;
  bottom: 20px;
@@ -47,7 +47,7 @@ html,body
  height: 190px;
  z-index: 2;
 }
-#avatar .img-avatar{
+#avatar img{
   width: 100%;
   height: 100%;
 }
@@ -145,7 +145,7 @@ html,body
 {
   width:69%;
   border: 1px solid black;
-  height:330%;
+  height:420%;
   position: absolute; /* chi can absolute là du */
   top: 335px; 
   right: 20px;
@@ -225,7 +225,7 @@ html,body
     color: red;
     position: absolute;
     clear: both;
-    margin-top: 158%;
+    margin-top: 220%;
     display: block;
 }
 .footer h2{
@@ -238,13 +238,23 @@ html,body
 </style>
 <body>
 
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v3.1&appId=1934566503272312';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
   <div id ="boxwidth">
     <div id ="cover-image">
       <a href="http://tailieufree.net/wp-content/uploads/2018/01/anh-bia-chuc-mung-nam-moi-happy-new-year-2018-7.jpg"><img src="http://tailieufree.net/wp-content/uploads/2018/01/anh-bia-chuc-mung-nam-moi-happy-new-year-2018-7.jpg" width="1249px" height="270px"></a>
     </div>
     <!--#cover-image  -->
     <div id="avatar">
-      <a href="https://cdn.pixabay.com/photo/2017/01/31/17/14/comic-characters-2025674_960_720.png"><img src="https://cdn.pixabay.com/photo/2016/06/20/07/11/farmer-1468183_960_720.png" ></a>
+      <a href="http://images6.fanpop.com/image/photos/39500000/troll-crazy-memebase-com-39517593-500-471.jpg"><img src="https://tophinhanhdep.com/wp-content/uploads/2017/05/avatar-naruto-dep-nhat-300x300.jpg" ></a>
     </div>
     <!-- #avatar -->
     <div id="name">
@@ -329,13 +339,13 @@ Nhưng lần sau gặp chắc không còn bịn rịn<br>
 Bởi mùa yêu thương đã lỗi hẹn qua rồi… <br> <br> <br>
 <img class="imagecenter" src = "https://4.bp.blogspot.com/-GYaODFHtnx0/V-JjBGrirRI/AAAAAAAAHuA/2d6YkCWyw_MZmWBiPlKOjetvwinO2caRQCLcB/s640/hinh-nh-dep-ve-mu-thu-1.jpg" width="700px" height="200px"> <br> <br> <br>
 
-Hoa đẹp, hoa thơm hoa vẫn tàn<br>
+Hoa đẹp, hoa thơm... hoa vẫn tàn<br>
 
-Tình nặng, tình sâu tình vẫn tan<br>
+Tình nặng, tình sâu ... tình vẫn tan<br>
 
-Rượu đắng, rượu cay rượu vẫn hết<br>
+Rượu đắng, rượu cay... rượu vẫn hết<br>
 
-Người hứa người thề người vẫn quên !<br><br><br>
+Người hứa, người thề... người vẫn quên !<br><br><br>
 
 <hr>
 Giữa thế giới rộng lớn này<br>
@@ -412,10 +422,24 @@ Kết thúc rồi, chưa hẳn là hết yêu!
 
 </div>
 <!-- #doantho-->
-</div>  
-<!-- #main-content -2-->
+<div class="khoicomment">
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6">
+       <h1 class="justify-content-center">Nhận xét của bạn</h1>
+       <div class="commentchofacebook">
+<div class="fb-comments" data-href="https://trieu0479.github.io" data-width="576" data-numposts="4"></div>
+    </div>
+    </div> <!-- #col -->
+  </div> <!-- #row -->
+</div>  <!-- #container -->
+</div> <!-- #khoicomment -->
+
+</div>  <!-- #main-content -2-->
+
 
 </div><!-- #main-content -->
+
 </div> <!-- #sidebar -->
 <center><div class="footer"> <h2>  Powered by Nguyen Trieu @2018.</h2>
 </div></center>
@@ -438,5 +462,12 @@ Kết thúc rồi, chưa hẳn là hết yêu!
 4) git remote add origin (clone with ssh,https) //clone là kho reposity
 5) git pull origin master-->
 
+
 <!-- --------------------------//////////////////////------------------- -->
+
  <!-- ***C. Tạo trang gallery  -->
+<!-- 1) Tạo thư mục mới
+2) Tạo 1 file index.html
+3) vào thư mục cha edit trên GIT bash theo cách A -->
+
+<!-- ---------------------------------//////////////////////-------------------------->
