@@ -1,44 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Big Shoe Use Bootstrap 4 website https://big-shoe.bizwebvietnam.net</title>
-		<link rel="stylesheet"type="text/css" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"> <!-- use font awesome -->
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <title>Big Shoe website https://big-shoe.bizwebvietnam.net</title>
+  
+  <!-- use bootstrap4,owl carousel -->
 
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-	<style type="text/css">
-		*{
-			margin: 0px;
-			padding:0;
-		}
-		body{
+  <link rel="stylesheet"type="text/css" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"> <!-- use font awesome -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-		}
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <!-- -----------------use owl carousel------------------ -->
+  <link rel="stylesheet" href="assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="assets/owl.theme.default.min.css">
+  
+  <style type="text/css">
+  *{
+    margin: 0;
+    padding:0;
+  }
+body{
+    max-height:500px;
+    width: auto;
+  }
 
-		.header{
-			width: 1312px;
-			height: 151px;
-			position: relative;
-		}
-		.cover1{
-			width: 100%;
-			position: absolute;
+  .header{
+    width: 1312px;
+    height: 151px;
+    position: relative;
+  }
+  .cover1{
+    width: 100%;
+    position: absolute;
 
-		}
-      .cover1 .textnotify{
-       	    font-size: 13px;
+  }
+  .cover1 .textnotify{
+    font-size: 13px;
     font-family: tahoma;
     position: absolute;
     display: inline-block;
     left: 84px;
     top: 5px;
     color: #000000ad;
-       }
-      .cover1 .icon{
+  }
+  .cover1 .icon{
     display: block;
     right: 84px;
     position: absolute;
@@ -48,271 +56,1601 @@
     /* padding: 1px 8px; */
     width: 104px;
     margin-top: 0px;
-       }
-       .icon i {
-     border-left: 1px solid #00000029;
-    padding: 0px 8px;
-    width: 13px;
-    height: 22px;
-    padding-top: 7px;
-    text-align: center;
-       }
-.icon i:last-child{
-border-right: 1px solid #00000029;
- padding: 0px 10px;
-    width: 13px;
-    height: 22px;
-    padding-top: 7px;
-    text-align: center;
+  }
+  .icon i {
+   border-left: 1px solid #00000029;
+   padding: 0px 17px;
+   width: 31px;
+   height: 27px;
+   padding-top: 7px;
+   text-align: center;
+   padding-left: 12px;
+ }
+ .icon i:last-child{
+  border-right: 1px solid #00000029;
+  padding: 0px 11px;
+  width: 32px;
+  height: 27px;
+  padding-top: 7px;
+  padding-left: 6px;
 }
 .cover2 {
-	    width: 102%;
-    height: 200px;
-    border-top: 1px solid #2929293b;
-    position: absolute;
-    margin-top: 27px;
-    display: block;
-	
+  width: 102%;
+  height: 200px;
+  border-top: 1px solid #2929293b;
+  position: absolute;
+  margin-top: 27px;
+  display: block;
+  
 
 }
 .logo{
-left: 94px;
-display: block;
-top:32px;
-width: 255px;
-height: 69px;
-position: absolute;
+  left: 94px;
+  display: block;
+  top:32px;
+  width: 255px;
+  height: 69px;
+  position: absolute;
 }
-form.example input[type=text] {
-     font-size: 17px;
-    border: 1px solid red;
-    float: left;
-    width: 559px;
-    background: #ffffff;
-    height: 49px;
-    margin: 47px 378px;
+form.example input[type="text"] {
+ font-size: 17px;
+ border: 1px solid red;
+ float: left;
+ width: 559px;
+ background: #ffffff;
+ height: 49px;
+ margin: 47px 378px;
 
 }
 
 form.example button {
   float: right;
-    width: 81px;
-    padding: 10px;
-    background: #2196F3;
-    color: white;
-    font-size: 17px;
-    border: 1px solid grey;
-    border-left: none;
-    cursor: pointer;
-    height: 51px;
-    margin-right: 319px;
-    margin-top: -98px;
+  width: 83px;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+  height: 49.6px;
+  margin-right: 319px;
+  margin-top: -96.5px;
 }
 
 form.example button:hover {
-    background: #0b7dda;
+  background: #0b7dda;
 }
 
 .arrow{
-	position: absolute;
-    top: 2px;
-    right: 70px;
-    border-top: 29px solid transparent;
-    border-right: 20px solid #2196F3;
-    border-bottom: 23px solid transparent;
-    margin: 44px 330px;
+  position: absolute;
+  top: 8px;
+  right: 70px;
+  border-top: 19px solid transparent;
+  border-right: 15px solid #2196F3;
+  border-bottom: 22px solid transparent;
+  margin: 44px 329px;
 }
 .icon-x{
-   width: 290px;
-    height: 76px;
-    position: absolute;
-    top: 30px;
-    right: 30px;
-    text-align: center;
-    padding: 3px;
-    font-size: 19px;
-    font-weight: bold;
-    color: #807d1eeb;
+ width: 290px;
+ height: 76px;
+ position: absolute;
+ top: 30px;
+ right: 30px;
+ text-align: center;
+ padding: 3px;
+ font-size: 19px;
+ font-weight: bold;
+ color: #807d1eeb;
 }
 .icon-x h3{
-font-size: 15px;
-font-weight: 300;
+  font-size: 15px;
+  font-weight: 300;
 }
 .horizontalmenu {
-	position: relative;
-	width: 200px;
+  position: relative;
+  width: 200px;
 }
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #08a780f0;
-    position: absolute;
-    width: 100%;
-    padding:0px 79px;
-    border: 1px dashed #ef001e;
-   /* position: fixed;
-    top: 150px;
-    width: 100%;*/
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #08a780f0;
+  position: absolute;
+  width: 100%;
+  padding:0px 79px;
+  border: 1px dashed #ef001e;
+  text-decoration: none;
 }
 
 li {
-    float: left;
+  float: left;
 }
 
 li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-li a:hover:not(.active) {
-    background-color: #111;
+li a:hover:not(.kichhoat) {
+  background-color: #111;
+  text-decoration: none;
 }
-
-.active {
-    background-color: #4CAF50;
+.goi:hover {
+  text-decoration:none;
+  background-color: #ffffff00 !important;
+  color: red!important;
 }
-.container{
-	margin-top: 87px;
+.goi {
+padding-left: 300px;
 }
-
+.kichhoat {
+  background-color: #4CAF50;
+  text-decoration: none;
+}
+.kichhoat:hover {
+  text-decoration: none;
+}
+.container .chinhbanner{
+  margin-top: 87px;
+}
+.container .chinhmenudoc {
+  margin-top: 20px;
+}
 /*----------menu doc-----------------------*/
-.verticalalign-menu {
-	width: 30%;
-	border:1px solid red;
-	height: 1000px;
+/*.verticalalign-menu {
+  width: 30%;
+  border:1px solid red;
+  height: 1000px;
+  }*/
+
+  .border {
+    border:1px solid black;
+    height: 518px;
+  }
+  .border1 {
+    border: 1px solid #0000002e;
+    height: 193px;
+    margin-top: 0px;
+  }
+  .tin {
+    border: 1px solid #0000002e;
+    height: 630px;
+    margin-top: 0px;
+  }
+  .cha {
+    position: relative;
+
+  }
+  .farther {
+    position: relative;
+  }
+  .chung {
+    position: absolute;
+  }
+  .general {
+    position: absolute;
+  }
+  .chung1 {
+    position: absolute;
+    margin-top: 36%;
+  }
+  .general1 {
+    position: absolute;
+    margin-top: 16%;
+  }
+  .chung2 {
+    position: absolute;
+    margin-top: 72%;
+  }
+  .general2{
+    margin-top: 32%;
+    position: absolute;
+  }
+  .chung3{
+    position: absolute;
+    margin-top: 108%;/* tính khoảng cách để ko bị trùng*/
+  }
+
+  .khunganhmini {
+    border: 1px solid #0000002e;
+    width: 102px;
+    height: 103px;
+    position: absolute;
+    left: 12px;
+    top: 19px;
+
+
+  }
+  .khunganhmini img{
+    width: 100px;
+    height: 95px;
+  }
+  .khunganhmini1 {
+   position: absolute;
+   left: 16px;
+   top: 19px;
+ }
+ .cc {
+  position: absolute;
+  left: 16px;
+  top: 26px;
+}
+}
+.chumini{
+  left: 138px;
+  position: absolute;
+  width: 132px;
+  top:20px;
+}
+.chutin {
+  left: 20px;
+  position: absolute;
+  width: 300px;
+  height: 205px;
+  top: 144px;
+}
+/*.chutin p{} */
+.chumini1 {
+  left: 46px;
+  position: absolute;
+  width: 196px;
+  top: 20px;
+  line-height: 12.5px;
+}
+.chuminix{
+  left: 138px;
+  position: absolute;
+  width: 132px;
+  top:20px;
+}
+.chumini p {
+  font-size: 15px;
+  font-weight: 690;
+}
+.chuminix p{
+ font-size: 15px;
+ font-weight: 690;
+}
+.chumini1 p {
+  font-size: 14px;
+  font-weight: 700;
+}
+.advertise {
+  width: 350px;
+  height: 357px;
+  overflow: hidden; /*phần tử tràn ngoài sẽ bị ẩn đi*/
+}
+.advertise img {
+  width: 350px;
+  height: 357px;
+  background-size: cover;
+  transition: 1.5s;
 }
 
+.advertise:hover img{
+  transform:scale(1.12);
+
+}
+.gg {
+  font-size: 13px;
+  font-weight: 600;
+  position: absolute;
+  margin-top: -14px;
+
+}
+.news {
+  font-weight: 400;
+  position: absolute;
+  padding: 20px;
+  width: 335px;
+}
+.tin2 {
+ margin-top: 85%;
+ position: absolute;
+}
+.hrngang {
+  position: absolute;
+  width: 348px;
+  border-bottom: 1px solid #21252945;
+  padding-top: 124px;
+  left: -20px;
+}
+.benphai {
+ margin-top: -199%;
+ left: 32%;
+}
+.sanphammoi{
+ margin-top: -171.66%;
+ position: absolute;
+ left: 519px;
+ z-index: 2;
+ border: 1px solid #21252924;
+ width: 736.5px;
+ margin-left: -21px;
+ padding-top: 45px;
+ border-top: 2px solid red;
+}
+.sanphammoi p {
+  margin: -1px 37px;
+  font-size: 14px;
+  margin-left: 18px;
+  font-weight: 660;
+  padding-bottom: -24px;
+  top: 13px;
+  position: absolute;
+  left: 5px;
+}
+.sp2{
+ margin-top: 2.34%;
+ position: absolute;
+ left: 519px;
+ z-index: 2;
+ border: 1px solid #21252924;
+ width: 736.5px;
+ margin-left: -21px;
+ padding-top: 45px;
+ border-top: 2px solid #00ff388a;
+}
+.sp2 p {
+  margin: -1px 37px;
+  font-size: 14px;
+  margin-left: 18px;
+  font-weight: 660;
+  padding-bottom: -24px;
+  top: 13px;
+  position: absolute;
+  left: 5px;
+}
+.sp3 {
+  margin-top: 5%;
+  border-top: 2px solid #ffed00d9;
+}
+.ngu {
+ margin: 0px 14px;
+ margin-right:-21px;
+}
+
+
+/*-------------style owl carousel----------------------------*/
+.positionanh{
+  position: relative;
+  max-width: 736.5px;
+  margin-top: -168.2%;
+  left: 498px;
+
+}
+
+.item{
+  border: 1px solid #00000014;
+  height: 290px;
+}
+
+
+
+.gia {
+  background-color: #fbbf22;
+  width: 60px;
+  height: 23px;
+  border: 1px solid #fbbf22;
+  border-radius: 8px;
+  right: 15px;
+  position: absolute;
+  top: 16px;
+
+}
+.gia span {
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 1px;
+  position: absolute;
+  padding-left: 11px;
+}
+  /*.anhsanpham {
+    margin-top: 19px;
+    }*/
+    .chuduoi p{
+     left: 12px;
+     position: absolute;
+     margin-top: -23px;
+   }
+   .chuduoi h4 {
+     width: 200px;
+     padding-top: 44px;
+     margin-left: 11px;
+     font-size: 18px;
+     color: red;
+   }
+   .chuduoi h3 {
+         width: 200px;
+    margin-top: -27px;
+    margin-left: 107px;
+    font-size: 14.5px;
+   }
+   /*-------------------carousel---------owl-2-------------------*/
+   .positionanh2 {
+    margin-top: 5.8% !important;
+  }
+  .positionanh2b
+  {
+    margin-top: 0% !important;
+  }
+  .positionanh3 {
+    margin-top: 8.34% !important;
+  }
+  .positionanh3b {
+    margin-top:0%;
+  }
+
+
+  /*------------------owl-carousel-----------------------------------*/
+
+  .quangcao2 {
+    margin-left: 498px ;
+    margin-top: 33px;
+    overflow: hidden;
+    width: 737.5px;
+    height: 138px;
+  }
+
+  .quangcao2 img {
+    width: 737.5px;
+    height: 138px;
+    transition: 1s;
+  }
+  .quangcao2:hover img {
+    transform: scale(1.3);
+
+  } 
+  .quangcao3 {
+    margin-top: 37px;
+    overflow: hidden;
+  }
+  .borderngang{
+    border-top: 1px solid #2125294d;
+    position: relative;
+    width: 100%;
+    margin-top: 24%;
+    left: 0%;
+  }
+
+  /*----------------backgroundden--------------------------------------------*/
+
+  .backgroundden {
+    width: 100%;
+    height: 309px;
+    background: #043516b5;
+    margin-bottom: 10%;
+    position: relative;
+    clear: both;
+   
+  }
+
+  .lienhe h3 { 
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 300;
+    padding: 42px 103px;
+    text-transform: uppercase; /*in hoa tất cả chữ */
+    letter-spacing: 2px; /* khoảng cách giữa các kí tự */
+  
+  }
+  .lienhe span {
+     margin-top: -26px;
+    position: absolute;
+}
+  .lienhe h3::before {
+    background: #800000e8 none repeat scroll 0 0;
+    width: 102px;
+    height: 2px;
+    position: absolute;
+    z-index: 300;
+    content: "";
+    top: 55px;
+  }
+  .lienhe h3::after {
+   background: #00000033;
+    width: 258px;
+    height: 2px;
+    position: absolute;
+    z-index: 300;
+    content: "";
+    top: 55px;
+    left: 206px;
+  }
+
+  .lienhe ul {
+    background-color: #21252900;
+    border: none;
+    width: 566px;
+    height: 243px;
+    font-size: 14px;
+    color: #fff;
+    padding: 0px 100px;
+    line-height: 27px;
+      font-family:cursive;
+  }
+  .lienhe ul li:last-child {
+    margin-top: 42px;
+    margin-left: -175px;
+  }
+  .lienhe ul .li2 {
+    margin-top: 8px;
+  }
+  /*------------------------------gioithieu-------------------*/
+  .gioithieu {
+    position: relative;
+    margin-left: 293px;
+    margin-top: -117px;
+  }
+  .dichvu {
+    margin-left: 542px;
+    margin-top: -113px;
+  }
+  .dichvu .haha {
+    color: #21252970;
+    font-size: 15px;
+  }
+  .thongtin {
+   margin-left: 764px;
+   margin-top: -113px;
+ }
+ .gioithieu h3 {
+   font-size: 18px;
+   color: #ffffff;
+   font-weight: 300;
+   padding: 42px 200px;
+   text-transform: uppercase; /*in hoa tất cả chữ */
+   letter-spacing: 2px /* khoảng cách giữa các kí tự */
+ }
+ .gioithieu h3::before {
+   background: #800000e8 none repeat scroll 0 0;
+   width: 102px;
+   height: 2px;
+   position: absolute;
+   z-index: 300;
+   content: ""; /*  bắt buộc phải có content trong before after*/
+   top: 80px;
+ }
+ .gioithieu h3::after {
+  background: #00000033;
+  width: 174px;
+  height: 2px;
+  position: absolute;
+  z-index: 300;
+  content: "";
+  top: 80px;
+  left: 204px;
+}
+.gioithieu ul {
+  background-color: #21252900;
+  border: none;
+  width: 566px;
+  height: 243px;
+  font-size: 14px;
+  color: #fff;
+  padding: 5px 200px;
+  line-height: 27px;
+  /*list-style-type: circle;*/
+}
+.gioithieu ul li i {
+  color: #21252970;
+  font-size: 9px;
+}
+
+
+.footer {
+      width: 100%;
+    height: 51px;
+    background: #00000094;
+    top: 323px;
+    position: absolute;
+    /*clear:both;*/
+}
+.footer p {
+    text-shadow: 0 0 0.2em #e6c701f0, 0 0 0.2em #05f947;
+    /* position: absolute; *//* ko áp dụng đc center*/
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+}
+.cuoitrang {
+  max-height: 500px;
+  margin-top: 32px;
+  clear: both;
+  position: relative;
+
+}
 </style>
 </head>
 
 <body>
-	<div class="wrapper">
-		<div class="header">
-			<div class="cover1">
-			<div class="textnotify">
-				Chào mừng bạn đã đến với Big Shoe !
-			</div> <!-- #textnotify -->
-			<div class="icon">
-		     <i class="fab fa-twitter"></i>
-		     <i class="fab fa-facebook-f"></i>
-		     <i class="fab fa-google-plus-g"></i>
-		 </div> <!-- #icon -->
-            </div>  <!-- #cover1 -->
+<div class="container-fluid">
+  <div class="wrapper">
+    <div class="header">
+      <div class="cover1">
+        <div class="textnotify">
+          Chào mừng bạn đã đến với Trieu Shoe !
+        </div> <!-- #textnotify -->
+        <div class="icon">
+         <i class="fab fa-twitter"></i>
+         <i class="fab fa-facebook-f"></i>
+         <i class="fab fa-google-plus-g"></i>
+       </div> <!-- #icon -->
+     </div>  <!-- #cover1 -->
 
-            <!-- --------------cover 2------------------ -->
-            <div class="cover2">
-             <span style="color:rgba(0,0,0,0.5);top:22px;width: 700px; height:30px;position:absolute;left:30%;padding:0px 10px;line-height: 15px; margin-left: 10px"><font color="red">Xu hướng tìm kiếm</font>&nbsp;&nbsp;converse &nbsp;&nbsp;&nbsp; giày da&nbsp;&nbsp;&nbsp; giày thời trang nam </span>
-            <img class="logo" src="https://bizweb.dktcdn.net/100/091/132/themes/633981/assets/logo.png?1533091277980" alt="">
-           
-            <div class="search">
+     <!-- --------------cover 2------------------ -->
+     <div class="cover2">
+       <span style="color:rgba(0,0,0,0.5);top:22px;width: 700px; height:30px;position:absolute;left:30%;padding:0px 10px;line-height: 15px; margin-left: 10px"><font color="red">Xu hướng tìm kiếm</font>&nbsp;&nbsp;converse &nbsp;&nbsp;&nbsp; giày da&nbsp;&nbsp;&nbsp; giày thời trang nam </span>
+       <img class="logo" src="https://bizweb.dktcdn.net/100/091/132/themes/633981/assets/logo.png?1533091277980" alt="">
+
+       <div class="search">
          <form class="example">
-        <input type="text" placeholder="Tìm kiếm.." name="search">
-        <div class="arrow"></div>
-         <button type="submit"><i class="fa fa-search"></i></button>
-         </form>
-     </div> <!-- #search -->
-             <div class="icon-x">
-             	<i class="fas fa-user-plus"><h3>Đăng nhập/Đăng ký</h3></i> &nbsp;&nbsp;&nbsp;
-                 <i class="fas fa-cart-plus"><h3>Giỏ hàng</h3></i>  
-             </div>
-        </div> <!-- #cover2 -->
-		</div><!--  #header -->
-		<!-- ---------------menu ngang----------------------------- -->
-	   <div class="horizontal-menu">
-<ul>
-  <li><a class="active" href="#home"><i style="padding: 0 6px;" class="fas fa-home"></i>Trang chủ</a></li>
-  <li><a href="#news">Về chúng tôi </a></li>
-  <li><a href="#contact"> Sản Phẩm<i class="fas fa-caret-down" style="padding: 0 5px;"></i></a></li>
-  <li><a href="#about">Tin Tức<i class="fas fa-caret-down" style="padding: 0 5px;"></i></a></li> 
-  <li><a href="#about">Liên Hệ</a></li>
-  <li><a href="#about"><i class="fas fa-phone-square" style="padding: 0 10px; color: red; margin-left: 100px"></i>HotLine:1900 2000</a></li>
-</ul>
-</div><!-- #horizontal-menu -->
+          <input type="text" placeholder="Tìm gì...?" name="search">
+          <div class="arrow"></div>
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+      </div> <!-- #search -->
+      <div class="icon-x">
+        <i class="fas fa-user-plus"><h3>Đăng nhập/Đăng ký</h3></i> &nbsp;&nbsp;&nbsp;
+        <i class="fas fa-cart-plus"><h3>Giỏ hàng</h3></i>  
+      </div>
+    </div> <!-- #cover2 -->
+  </div><!--  #header -->
+  <!-- ---------------menu ngang----------------------------- -->
+  <div class="horizontal-menu">
+    <ul>
+      <li><a class="kichhoat" href="#home"><i style="padding: 0 6px;" class="fas fa-home"></i>Trang chủ</a></li>
+      <li><a href="#news">Về chúng tôi </a></li>
+      <li><a href="#contact"> Sản Phẩm<i class="fas fa-caret-down" style="padding: 0 5px;"></i></a></li>
+      <li><a href="#about">Tin Tức<i class="fas fa-caret-down" style="padding: 0 5px;"></i></a></li> 
+      <li><a href="#about">Liên Hệ</a></li>
+      <li><a class="goi" href="#about"><img src="https://bizweb.dktcdn.net/thumb/icon/100/091/132/themes/633981/assets/hotline_mobile.png?1535711389074" alt=""> HotLine:1900 2000</a></li>
+    </ul>
+  </div><!-- #horizontal-menu -->
 
-	 <!-- ---------carousel-------------------- -->
-	 <div class="container">
-	 	<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="https://bizweb.dktcdn.net/100/091/132/themes/633981/assets/slider_1_image.png?1533091277980" alt="First slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="https://bizweb.dktcdn.net/100/091/132/themes/633981/assets/slider_2_image.png?1533091277980" alt="Second slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="https://bizweb.dktcdn.net/100/091/132/themes/633981/assets/slider_3_image.png?1533091277980" alt="Third slide">
-    </div>
+  <!-- ---------carousel-------------------- -->
+  <div class="container ">
+    <div class="chinhbanner">
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="https://bizweb.dktcdn.net/100/091/132/themes/633981/assets/slider_1_image.png?1533091277980" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://bizweb.dktcdn.net/100/091/132/themes/633981/assets/slider_2_image.png?1533091277980" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://bizweb.dktcdn.net/100/091/132/themes/633981/assets/slider_3_image.png?1533091277980" alt="Third slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div> <!-- #chinhbanner --> 
+  </div> <!-- #container -->
+
+  
+  <!--------------------------------------menu-dọc--------------------------------- -->
+  <div class="container">
+    <div class="row">
+      <div class="col-4 ">
+        <div class="chinhmenudoc">
+          <div class="list-group" >
+           <button type="button" class="btn btn-danger btn-lg ">DANH MỤC SẢN PHẨM</button>
+           <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile"><i class="fa fa-caret-right mr-2"></i>Bộ sưu tập mới</a>
+           <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages"><i class="fa fa-caret-right mr-2"></i>Giày thời trang nam</a>
+           <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings"><i class="fa fa-caret-right mr-2"></i>Giày thời trang nữ</a>
+           <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings"><i class="fa fa-caret-right mr-2"></i>Giày mùa hè</a>
+           <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings"><i class="fa fa-caret-right mr-2"></i>Giày công sở</a>
+           <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings"><i class="fa fa-caret-right mr-2"></i>Giày thể thao</a>
+           <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings"> <b>Xem thêm &nbsp; ... </b></a>
+         </div>
+       </div>  <!-- #chinhmenudoc -->
+     </div> <!-- #col-4 -->
+   </div>
+ </div> <!-- #container -->
+ <!-- ---------------------------------menu doc 2-------------------- -->
+ <div class="container">
+  <div class="row">
+    <div class="col-sm-4 ">
+      <div class="chinhmenudoc">
+        <div class="list-group" >
+         <button type="button" class="btn btn-danger btn-lg ">SẢN PHẨM NỔI BẬT</button>
+         <div class="border">
+          <div class="cha">
+            <div class="chung"> 
+              <div class="khunganhmini">
+                <img src="https://bizweb.dktcdn.net/thumb/small/100/091/132/products/1-min.jpg?v=1468203233277">
+              </div> <!-- #khunganhmini -->
+              <div class="chuminix">
+                <p>Giày da converse cao cấp</p>
+
+                <font style="color:red"> 1.200.000<sup>đ</sup> </font>
+                <font > <del>1.400.000</del> <sup>đ</sup></font>
+
+              </div> <!-- #chumini -->
+            </div> <!-- #chung -->
+
+            <div class="chung1" >
+             <div class="khunganhmini">
+              <img src="http:///bizweb.dktcdn.net/100/091/132/products/15-min-f93d1b0d-711f-4c4b-b6e8-7de18c53f671.jpg?v=1468203346717" alt="giay-converse-all-star">
+            </div> <!-- #khunganhmini -->
+            <div class="chuminix">
+              <p>Giày da converse cao cấp</p>
+              <font style="color:red"> 1.200.000 <sup>đ</sup></font>
+              <font > <del>1.400.000</del> <sup>đ</sup></font>
+
+            </div> <!-- #chumini -->
+          </div> <!-- #chung1 -->
+
+          <div class="chung2" >
+           <div class="khunganhmini">
+            <img src="https://bizweb.dktcdn.net/thumb/small/100/091/132/products/15-min-f93d1b0d-711f-4c4b-b6e8-7de18c53f671.jpg?v=1468203346717
+            " alt="giay-converse-all-star">
+          </div> <!-- #khunganhmini -->
+          <div class="chuminix">
+            <p>Giày da converse cao cấp</p>
+
+            <font style="color:red">1.200.000<sup>đ</sup> </font>
+            <font > <del>1.400.000</del> <sup>đ</sup></font>
+
+          </div> <!-- #chuminix -->
+        </div> <!-- #chung1 -->
+
+
+        <div class="chung3" >
+         <div class="khunganhmini">
+          <img src="https://bizweb.dktcdn.net/100/091/132/products/19-min-63537b64-b819-4ca2-8ac2-7111f68ca7a2.jpg?v=1468203514247" alt="giay-converse-all-star">
+        </div> <!-- #khunganhmini -->
+        <div class="chuminix">
+          <p>Giày da converse cao cấp</p>
+
+          <font style="color:red"> 1.200.000<sup>đ</sup> </font>
+          <font > <del>1.400.000</del> <sup>đ</sup></font>
+
+        </div> <!-- #chumini -->
+      </div> <!-- #chung2 -->
+
+    </div><!-- #cha -->
+  </div> <!-- #border -->
+  <!-- ---------------advertise--------------------------------- -->
+  <div class="advertise mt-4">
+    <img src="https://bizweb.dktcdn.net/100/091/132/themes/633981/assets/index_sidebar_banner_image.png?1535711389074" alt="anh heo" >
+
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
+</div> <!-- #list-group -->
+</div> <!--  #chinhmenudoc -->
+</div> <!-- #col-4 -->
+</div> <!-- #container -->
+</div><!--  #container -->
+
+<!-- ---------------------menu doc 3-------------------------- -->
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4 ">
+      <div class="chinhmenudoc">
+        <div class="list-group" >
+         <button type="button" class="btn btn-danger btn-lg ">HỖ TRỢ TRỰC TUYẾN</button>
+         <div class="border1">
+          <div class="farther">
+            <div class="general"> 
+              <div class="khunganhmini1">
+                <img src="https://bizweb.dktcdn.net/100/091/132/themes/633981/assets/item_1_image.png?1535711389074">
+              </div> <!-- #khunganhmini -->
+              <div class="chumini1">
+                <p>Tư vấn bán hàng 1</p>
+
+                <font style=""> Mrs. Dung: <b> (04) 3786 8904 </b></font>
+
+
+              </div> <!-- #chumini -->
+            </div> <!-- #general -->
+
+            <div class="general1" >
+             <div class="khunganhmini1">
+              <img src="https://bizweb.dktcdn.net/100/091/132/themes/633981/assets/item_1_image.png?1535711389074" alt="giay-converse-all-star">
+            </div> <!-- #khunganhmini -->
+            <div class="chumini1">
+              <p>Tư vấn bán hàng 2</p>
+
+              <font style=""> Mr. Tuấn: <b> (04) 3786 8904</b> </font>
+
+
+            </div> <!-- #chumini -->
+          </div> <!-- #general1 -->
+
+          <div class="general2" >
+           <div class="khunganhmini1">
+            <img src="https://bizweb.dktcdn.net/100/091/132/themes/633981/assets/item_3_image.png?1535711389074
+            " alt="mail">
+          </div> <!-- #khunganhmini -->
+          <div class="chumini1">
+            <p>Email liên hệ</p>
+
+            <font style="">  support@bizweb.vn </font>
+
+          </div> <!-- #chumini -->
+        </div> <!-- #general2  -->
+      </div><!-- #cha -->
+    </div> <!-- #border1 -->
+  </div>
 </div>
-	 </div> <!-- #container -->
+</div>
+</div>
+</div>
+<!-- --------------------------menudoc- 4 tin tuc---------------------- -->
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4 ">
+      <div class="chinhmenudoc">
+        <div class="list-group" >
+         <button type="button" class="btn btn-danger btn-lg "> TIN TỨC</button>
+         <div class="border1 tin">
+          <div class="farther">
+            <div class="general"> 
+              <div class="khunganhmini1 ">
+                <img src="https://bizweb.dktcdn.net/100/091/132/articles/anh2.png?v=1466158653610" width="318px" height="108px">
+              </div> <!-- #khunganhmini -->
+              <div class="chumini chutin">
+                <p>Chọn giày thể thao cho bạn gái nữ tính</p>
+                <font class="gg">    
+                 <i class="fa fa-user"> Nguyễn Ngọc Dũng </i>  &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 <i class="fa fa-gift "> 28/05/2016 </i>
+               </font>  
+               <span class="news"> 
+                Giày thể thao đang là phụ kiện không thể thiếu trong tủ giày dép của các bạn gái. Những đôi giày thể thao với thiết kế đa... <font style="color:red"> [Đọc tiếp ...] </font>
+              </span>
+              <div class="hrngang"></div>
+            </div> <!-- #chutin-->
+          </div> <!-- #general -->
 
-	
- <!--------------------------------------menu-dọc--------------------------------- -->
- <div class="maincontent">  
- 	<div class="container">
- 		<div class="row">
- 			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
- 				 <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-      <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a>
-      <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a>
-      <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</a>
-      <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a>
-    </div>
+          <!-- ---------------------------tin 2---------------------------- -->
+        </div><!-- #cha -->
+
+        <div class="farther">
+          <div class="general tin2"> 
+            <div class="khunganhmini1 cc ">
+              <img src="https://bizweb.dktcdn.net/100/091/132/articles/anh3.png?v=1466157559277" width="318px" height="108px">
+            </div> <!-- #khunganhmini -->
+            <div class="chumini chutin">
+              <p>'Bí kiếp' phân biệt giày converse thật hay giả</p>
+              <font class="gg">    
+               <i class="fa fa-user"> Nguyễn Ngọc Dũng </i>  &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               <i class="fa fa-gift "> 29/05/2016 </i>
+             </font>  
+             <span class="news"> 
+              Giàyconverse thật thường có giá khá cao,xứng tầm với thương hiệu và chất lượng của nó.Hiện nay trên thị trường...   <font style="color:red"> [Đọc tiếp ...] </font>
+            </span>
+
+          </div> <!-- #chutin-->
+        </div> <!-- #general -->
+      </div><!-- #cha -->
+
+    </div> <!-- #border1 -->
   </div>
-  <div class="col-9">
-    <div class="tab-content" id="v-pills-tabContent">
-      <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">...</div>
-      <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">...</div>
-      <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
-      <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
-    </div>
- 			</div>  <!-- #col-4 -->
- 		</div><!--  #row -->
- 	</div> <!-- #container -->
- 	
-<!-- <div class="verticalalign-menu">
-<ul class="doc">
-  <li><a class="active" href="#home">Home</a></li>
-  <li><a href="#news">News</a></li>
-  <li><a href="#contact">Contact</a></li>
-  <li><a href="#about">About</a></li>
-</ul>
-	
-</div>  #verticalalign-menu -->
-
-<div class="product">
-	
-</div> <!-- #product -->
+</div>
+</div>
+</div>
+</div> <!-- # container -->
 
 
-</div> <!-- #maincontent -->
+<div class="sanphammoi">
+  <p>SẢN PHẨM MỚI</p>
+</div>
+<!-- ----------------------use -owl-carousel--------------------- -->
+<div class="positionanh" >
+  <div class="owl-carousel">
+    <div class="item">
+      <div class="gia"> 
+       <span>-38%</span>
+     </div>
+     <img src="https://bizweb.dktcdn.net/thumb/medium/100/091/132/products/9-min-0f7e3257-9fa9-4aab-8955-0f7701b42ead.jpg?v=1468202641487" alt="" class="anhsanpham" width="80px" height="150px">
+     <div class="chuduoi">
+      <p> Giày da converse cao cấp</p>
+      <h4> 1.200.000<sup>đ</sup> </h4>
+      <h3> <del>1.400.000</del> <sup>đ</sup></h3>    
+    </div>     
+  </div><!--  #item -->
+
+  <div class="item">
+   <div class="gia"> 
+     <span>-38%</span>
+   </div>
+   <img src="https://bizweb.dktcdn.net/thumb/medium/100/091/132/products/13-min.jpg?v=1468201120747" alt="" class="anhsanpham"width="80px" height="150px">
+   <div class="chuduoi" >
+    <p> Giày da converse cao cấp</p>
+    <h4> 1.200.000<sup>đ</sup> </h4>
+    <h3> <del>1.400.000</del> <sup>đ</sup></h3>    
+  </div><!--  #chuduoi --> 
+</div> <!-- #item -->
+
+<div class="item">
+ <div class="gia"> 
+   <span>-38%</span>
+ </div>
+ <img src="https://bizweb.dktcdn.net/thumb/medium/100/091/132/products/14-min-1a6a37f9-ca26-409e-9a85-025cc612fd20.jpg?v=1468199870023" alt="" class="anhsanpham" width="80px" height="150px">
+ <div class="chuduoi" >
+  <p> Giày da converse cao cấp</p>
+  <h4> 1.200.000<sup>đ</sup> </h4>
+  <h3> <del>1.400.000</del> <sup>đ</sup></h3>    
+</div><!--  #chuduoi --> 
+</div>
+
+<div class="item">
+ <div class="gia"> 
+  <span>-38%</span>
+</div>
+<img src="https://bizweb.dktcdn.net/thumb/medium/100/091/132/products/15-min-4bb14283-a8a1-43b4-a2b9-478641035770.jpg?v=1468200566187" alt="" class="anhsanpham"width="80px" height="150px">
+<div class="chuduoi">
+  <p> Giày da converse cao cấp</p>
+  <h4> 1.200.000<sup>đ</sup> </h4>
+  <h3> <del>1.400.000</del> <sup>đ</sup></h3>    
+</div><!--  #chuduoi --> 
+</div>
+
+<div class="item">
+ <div class="gia"> 
+   <span> -38%</span>
+ </div>
+ <img src="https://bizweb.dktcdn.net/thumb/medium/100/091/132/products/19-min-56a50230-94af-4448-b553-d1cdaff4fbd6.jpg?v=1468203935623" alt="" class="anhsanpham"width="80px" height="150px">
+ <div class="chuduoi">
+  <p> Giày da converse cao cấp</p>
+  <h4> 1.200.000<sup>đ</sup> </h4>
+  <h3> <del>1.400.000</del> <sup>đ</sup></h3>    
+</div><!--  #chuduoi --> 
+</div>
+
+<div class="item">
+ <div class="gia"> 
+  <span>  -38%</span>
+</div>
+<img src="https://bizweb.dktcdn.net/thumb/medium/100/091/132/products/21-min-9e8ea0bf-1120-4473-a335-abe09236c810.jpg?v=1468204059610" alt="" class="anhsanpham"width="80px" height="150px">
+<div class="chuduoi">
+  <p> Giày da converse cao cấp</p>
+  <h4> 1.200.000<sup>đ</sup> </h4>
+  <h3> <del>1.400.000</del> <sup>đ</sup></h3>    
+</div><!--  #chuduoi --> 
+</div>
+
+<div class="item">
+ <div class="gia"> 
+   <span> -38%</span>
+ </div>
+ <img src="https://bizweb.dktcdn.net/thumb/medium/100/091/132/products/4-min-b44f4156-7226-4759-a2a2-545531ef7c8d.jpg?v=1468202743280" alt="" class="anhsanpham"width="80px" height="150px">
+ <div class="chuduoi">
+  <p> Giày da converse cao cấp</p>
+  <h4> 1.200.000<sup>đ</sup> </h4>
+  <h3> <del>1.400.000</del> <sup>đ</sup></h3>    
+</div><!--  #chuduoi --> 
+</div>
+
+<div class="item">
+ <div class="gia"> 
+  <span>-38%</span>
+</div>
+<img src="https://bizweb.dktcdn.net/thumb/medium/100/091/132/products/5-min-a5bb63b5-5f5e-4109-ae48-b6f4e3c5a3aa.jpg?v=1468202641487" alt="" class="anhsanpham" width="80px" height="150px">
+<div class="chuduoi">
+  <p> Giày da converse cao cấp</p>
+  <h4> 1.200.000<sup>đ</sup> </h4>
+  <h3> <del>1.400.000</del> <sup>đ</sup></h3>    
+</div><!--  #chuduoi --> 
+</div>
+
+</div> <!-- #owl carousel -->
+</div> <!-- #positionanh -->
+
+<script src="jquery.min.js"> </script>
+<script src="owl.carousel.min.js"></script>
+<script>
+
+  $('.owl-carousel').owlCarousel({
+    loop:false,
+    margin:0,
+    nav:false,
+    dots:false,
+    responsive:{
+      0:{
+        items:1
+      },
+      600:{
+        items:1
+      },
+      1000:{
+        items:4
+      }
+    }
+  })
+</script>
+
+<!-- --------------------------------het owl -carousel--------------------------- -->
+
+<div class="quangcao2">
+  <img src="https://bizweb.dktcdn.net/100/091/132/themes/633981/assets/large_banner_1.png?1535711389074" alt="cc">
+</div> <!-- #quangcao2 -->
+<!-- -----------------het quangcao2--------------------------------------- -->
+
+<div class="sanphammoi sp2">
+  <p>SẢN PHẨM KHUYẾN MÃI</p>
+</div> <!-- #sp2 -->
+<!-- -------------------use carousel-owl 2------------------------------------------- -->
+<div class="positionanh positionanh2" >
+  <div class="owl-carousel">
+    <div class="item">
+      <div class="gia"> 
+       <span>-38%</span>
+     </div>
+     <img src="https://bizweb.dktcdn.net/thumb/medium/100/091/132/products/9-min-0f7e3257-9fa9-4aab-8955-0f7701b42ead.jpg?v=1468202641487" alt="" class="anhsanpham" width="80px" height="150px">
+     <div class="chuduoi">
+      <p> Giày da converse cao cấp</p>
+      <h4> 1.200.000<sup>đ</sup> </h4>
+      <h3> <del>1.400.000</del> <sup>đ</sup></h3>    
+    </div>     
+  </div><!--  #item -->
+
+  <div class="item">
+   <div class="gia"> 
+     <span>-38%</span>
+   </div>
+   <img src="https://bizweb.dktcdn.net/thumb/medium/100/091/132/products/13-min.jpg?v=1468201120747" alt="" class="anhsanpham"width="80px" height="150px">
+   <div class="chuduoi" >
+    <p> Giày da converse cao cấp</p>
+    <h4> 1.200.000<sup>đ</sup> </h4>
+    <h3> <del>1.400.000</del> <sup>đ</sup></h3>    
+  </div><!--  #chuduoi --> 
+</div> <!-- #item -->
+
+<div class="item">
+ <div class="gia"> 
+   <span>-38%</span>
+ </div>
+ <img src="https://bizweb.dktcdn.net/thumb/medium/100/091/132/products/14-min-1a6a37f9-ca26-409e-9a85-025cc612fd20.jpg?v=1468199870023" alt="" class="anhsanpham" width="80px" height="150px">
+ <div class="chuduoi" >
+  <p> Giày da converse cao cấp</p>
+  <h4> 1.200.000<sup>đ</sup> </h4>
+  <h3> <del>1.400.000</del> <sup>đ</sup></h3>    
+</div><!--  #chuduoi --> 
+</div>
+
+<div class="item">
+ <div class="gia"> 
+  <span>-38%</span>
+</div>
+<img src="https://bizweb.dktcdn.net/thumb/medium/100/091/132/products/15-min-4bb14283-a8a1-43b4-a2b9-478641035770.jpg?v=1468200566187" alt="" class="anhsanpham"width="80px" height="150px">
+<div class="chuduoi">
+  <p> Giày da converse cao cấp</p>
+  <h4> 1.200.000<sup>đ</sup> </h4>
+  <h3> <del>1.400.000</del> <sup>đ</sup></h3>    
+</div><!--  #chuduoi --> 
+</div>
+
+<div class="item">
+ <div class="gia"> 
+   <span> -38%</span>
+ </div>
+ <img src="https://bizweb.dktcdn.net/thumb/medium/100/091/132/products/19-min-56a50230-94af-4448-b553-d1cdaff4fbd6.jpg?v=1468203935623" alt="" class="anhsanpham"width="80px" height="150px">
+ <div class="chuduoi">
+  <p> Giày da converse cao cấp</p>
+  <h4> 1.200.000<sup>đ</sup> </h4>
+  <h3> <del>1.400.000</del> <sup>đ</sup></h3>    
+</div><!--  #chuduoi --> 
+</div>
+
+<div class="item">
+ <div class="gia"> 
+  <span>  -38%</span>
+</div>
+<img src="https://bizweb.dktcdn.net/thumb/medium/100/091/132/products/21-min-9e8ea0bf-1120-4473-a335-abe09236c810.jpg?v=1468204059610" alt="" class="anhsanpham"width="80px" height="150px">
+<div class="chuduoi">
+  <p> Giày da converse cao cấp</p>
+  <h4> 1.200.000<sup>đ</sup> </h4>
+  <h3> <del>1.400.000</del> <sup>đ</sup></h3>    
+</div><!--  #chuduoi --> 
+</div>
+
+<div class="item">
+ <div class="gia"> 
+   <span> -38%</span>
+ </div>
+ <img src="https://bizweb.dktcdn.net/thumb/medium/100/091/132/products/4-min-b44f4156-7226-4759-a2a2-545531ef7c8d.jpg?v=1468202743280" alt="" class="anhsanpham"width="80px" height="150px">
+ <div class="chuduoi">
+  <p> Giày da converse cao cấp</p>
+  <h4> 1.200.000<sup>đ</sup> </h4>
+  <h3> <del>1.400.000</del> <sup>đ</sup></h3>    
+</div><!--  #chuduoi --> 
+</div>
+
+<div class="item">
+ <div class="gia"> 
+  <span>-38%</span>
+</div>
+<img src="https://bizweb.dktcdn.net/thumb/medium/100/091/132/products/5-min-a5bb63b5-5f5e-4109-ae48-b6f4e3c5a3aa.jpg?v=1468202641487" alt="" class="anhsanpham" width="80px" height="150px">
+<div class="chuduoi">
+  <p> Giày da converse cao cấp</p>
+  <h4> 1.200.000<sup>đ</sup> </h4>
+  <h3> <del>1.400.000</del> <sup>đ</sup></h3>    
+</div><!--  #chuduoi --> 
+</div>
+
+</div> <!-- #owl carousel -->
+</div> <!-- #positionanh -->
+<script src="jquery.min.js"> </script>
+<script src="owl.carousel.min.js"></script>
+<script>
+
+  $('.owl-carousel').owlCarousel({
+    loop:false,
+    margin:0,
+    nav:false,
+    dots:false,
+    responsive:{
+      0:{
+        items:1
+      },
+      600:{
+        items:1
+      },
+      1000:{
+        items:4
+      }
+    }
+  })
+</script>
+
+<!-- -------------------use carousel-owl 2b------------------------------------------- -->
+<div class="positionanh positionanh2b" >
+  <div class="owl-carousel">
+    <div class="item">
+      <div class="gia"> 
+       <span>-38%</span>
+     </div>
+     <img src="https://bizweb.dktcdn.net/thumb/medium/100/091/132/products/9-min-0f7e3257-9fa9-4aab-8955-0f7701b42ead.jpg?v=1468202641487" alt="" class="anhsanpham" width="80px" height="150px">
+     <div class="chuduoi">
+      <p> Giày da converse cao cấp</p>
+      <h4> 1.200.000<sup>đ</sup> </h4>
+      <h3> <del>1.400.000</del> <sup>đ</sup></h3>    
+    </div>     
+  </div><!--  #item -->
+
+  <div class="item">
+   <div class="gia"> 
+     <span>-38%</span>
+   </div>
+   <img src="https://bizweb.dktcdn.net/thumb/medium/100/091/132/products/13-min.jpg?v=1468201120747" alt="" class="anhsanpham"width="80px" height="150px">
+   <div class="chuduoi" >
+    <p> Giày da converse cao cấp</p>
+    <h4> 1.200.000<sup>đ</sup> </h4>
+    <h3> <del>1.400.000</del> <sup>đ</sup></h3>    
+  </div><!--  #chuduoi --> 
+</div> <!-- #item -->
+
+<div class="item">
+ <div class="gia"> 
+   <span>-38%</span>
+ </div>
+ <img src="https://bizweb.dktcdn.net/thumb/medium/100/091/132/products/14-min-1a6a37f9-ca26-409e-9a85-025cc612fd20.jpg?v=1468199870023" alt="" class="anhsanpham" width="80px" height="150px">
+ <div class="chuduoi" >
+  <p> Giày da converse cao cấp</p>
+  <h4> 1.200.000<sup>đ</sup> </h4>
+  <h3> <del>1.400.000</del> <sup>đ</sup></h3>    
+</div><!--  #chuduoi --> 
+</div>
+
+<div class="item">
+ <div class="gia"> 
+  <span>-38%</span>
+</div>
+<img src="https://bizweb.dktcdn.net/thumb/medium/100/091/132/products/15-min-4bb14283-a8a1-43b4-a2b9-478641035770.jpg?v=1468200566187" alt="" class="anhsanpham"width="80px" height="150px">
+<div class="chuduoi">
+  <p> Giày da converse cao cấp</p>
+  <h4> 1.200.000<sup>đ</sup> </h4>
+  <h3> <del>1.400.000</del> <sup>đ</sup></h3>    
+</div><!--  #chuduoi --> 
+</div>
+
+<div class="item">
+ <div class="gia"> 
+   <span> -38%</span>
+ </div>
+ <img src="https://bizweb.dktcdn.net/thumb/medium/100/091/132/products/19-min-56a50230-94af-4448-b553-d1cdaff4fbd6.jpg?v=1468203935623" alt="" class="anhsanpham"width="80px" height="150px">
+ <div class="chuduoi">
+  <p> Giày da converse cao cấp</p>
+  <h4> 1.200.000<sup>đ</sup> </h4>
+  <h3> <del>1.400.000</del> <sup>đ</sup></h3>    
+</div><!--  #chuduoi --> 
+</div>
+
+<div class="item">
+ <div class="gia"> 
+  <span>  -38%</span>
+</div>
+<img src="https://bizweb.dktcdn.net/thumb/medium/100/091/132/products/21-min-9e8ea0bf-1120-4473-a335-abe09236c810.jpg?v=1468204059610" alt="" class="anhsanpham"width="80px" height="150px">
+<div class="chuduoi">
+  <p> Giày da converse cao cấp</p>
+  <h4> 1.200.000<sup>đ</sup> </h4>
+  <h3> <del>1.400.000</del> <sup>đ</sup></h3>    
+</div><!--  #chuduoi --> 
+</div>
+
+<div class="item">
+ <div class="gia"> 
+   <span> -38%</span>
+ </div>
+ <img src="https://bizweb.dktcdn.net/thumb/medium/100/091/132/products/4-min-b44f4156-7226-4759-a2a2-545531ef7c8d.jpg?v=1468202743280" alt="" class="anhsanpham"width="80px" height="150px">
+ <div class="chuduoi">
+  <p> Giày da converse cao cấp</p>
+  <h4> 1.200.000<sup>đ</sup> </h4>
+  <h3> <del>1.400.000</del> <sup>đ</sup></h3>    
+</div><!--  #chuduoi --> 
+</div>
+
+<div class="item">
+ <div class="gia"> 
+  <span>-38%</span>
+</div>
+<img src="https://bizweb.dktcdn.net/thumb/medium/100/091/132/products/5-min-a5bb63b5-5f5e-4109-ae48-b6f4e3c5a3aa.jpg?v=1468202641487" alt="" class="anhsanpham" width="80px" height="150px">
+<div class="chuduoi">
+  <p> Giày da converse cao cấp</p>
+  <h4> 1.200.000<sup>đ</sup> </h4>
+  <h3> <del>1.400.000</del> <sup>đ</sup></h3>    
+</div><!--  #chuduoi --> 
+</div>
+
+</div> <!-- #owl carousel -->
+</div> <!-- #positionanh -->
+<script src="jquery.min.js"> </script>
+<script src="owl.carousel.min.js"></script>
+<script>
+
+  $('.owl-carousel').owlCarousel({
+    loop:false,
+    margin:0,
+    nav:false,
+    dots:false,
+    responsive:{
+      0:{
+        items:1
+      },
+      600:{
+        items:1
+      },
+      1000:{
+        items:4
+      }
+    }
+  })
+</script>
+
+<!-- ------------------------------quang cao 3---------------------------- -->
+<div class="quangcao2 quangcao3">
+  <img src=" https://bizweb.dktcdn.net/100/091/132/themes/633981/assets/large_banner_2.png?1535711389074" alt="">
+</div>
+<!-- -------------------sp 3------------ -->
+<div class="sanphammoi sp3">
+  <p>SẢN PHẨM NỔI BẬT</p>
+</div> <!-- #sp2 -->
+
+<!-- ---------------------------use carousel 3 va 3v------------------ --------------   -->
+<div class="positionanh positionanh3" >
+  <div class="owl-carousel">
+    <div class="item">
+      <div class="gia"> 
+       <span>-38%</span>
+     </div>
+     <img src="https://bizweb.dktcdn.net/thumb/medium/100/091/132/products/9-min-0f7e3257-9fa9-4aab-8955-0f7701b42ead.jpg?v=1468202641487" alt="" class="anhsanpham" width="80px" height="150px">
+     <div class="chuduoi">
+      <p> Giày da converse cao cấp</p>
+      <h4> 1.200.000<sup>đ</sup> </h4>
+      <h3> <del>1.400.000</del> <sup>đ</sup></h3>    
+    </div>     
+  </div><!--  #item -->
+
+  <div class="item">
+   <div class="gia"> 
+     <span>-38%</span>
+   </div>
+   <img src="https://bizweb.dktcdn.net/thumb/medium/100/091/132/products/13-min.jpg?v=1468201120747" alt="" class="anhsanpham"width="80px" height="150px">
+   <div class="chuduoi" >
+    <p> Giày da converse cao cấp</p>
+    <h4> 1.200.000<sup>đ</sup> </h4>
+    <h3> <del>1.400.000</del> <sup>đ</sup></h3>    
+  </div><!--  #chuduoi --> 
+</div> <!-- #item -->
+
+<div class="item">
+ <div class="gia"> 
+   <span>-38%</span>
+ </div>
+ <img src="https://bizweb.dktcdn.net/thumb/medium/100/091/132/products/14-min-1a6a37f9-ca26-409e-9a85-025cc612fd20.jpg?v=1468199870023" alt="" class="anhsanpham" width="80px" height="150px">
+ <div class="chuduoi" >
+  <p> Giày da converse cao cấp</p>
+  <h4> 1.200.000<sup>đ</sup> </h4>
+  <h3> <del>1.400.000</del> <sup>đ</sup></h3>    
+</div><!--  #chuduoi --> 
+</div>
+
+<div class="item">
+ <div class="gia"> 
+  <span>-38%</span>
+</div>
+<img src="https://bizweb.dktcdn.net/thumb/medium/100/091/132/products/15-min-4bb14283-a8a1-43b4-a2b9-478641035770.jpg?v=1468200566187" alt="" class="anhsanpham"width="80px" height="150px">
+<div class="chuduoi">
+  <p> Giày da converse cao cấp</p>
+  <h4> 1.200.000<sup>đ</sup> </h4>
+  <h3> <del>1.400.000</del> <sup>đ</sup></h3>    
+</div><!--  #chuduoi --> 
+</div>
+
+<div class="item">
+ <div class="gia"> 
+   <span> -38%</span>
+ </div>
+ <img src="https://bizweb.dktcdn.net/thumb/medium/100/091/132/products/19-min-56a50230-94af-4448-b553-d1cdaff4fbd6.jpg?v=1468203935623" alt="" class="anhsanpham"width="80px" height="150px">
+ <div class="chuduoi">
+  <p> Giày da converse cao cấp</p>
+  <h4> 1.200.000<sup>đ</sup> </h4>
+  <h3> <del>1.400.000</del> <sup>đ</sup></h3>    
+</div><!--  #chuduoi --> 
+</div>
+
+<div class="item">
+ <div class="gia"> 
+  <span>  -38%</span>
+</div>
+<img src="https://bizweb.dktcdn.net/thumb/medium/100/091/132/products/21-min-9e8ea0bf-1120-4473-a335-abe09236c810.jpg?v=1468204059610" alt="" class="anhsanpham"width="80px" height="150px">
+<div class="chuduoi">
+  <p> Giày da converse cao cấp</p>
+  <h4> 1.200.000<sup>đ</sup> </h4>
+  <h3> <del>1.400.000</del> <sup>đ</sup></h3>    
+</div><!--  #chuduoi --> 
+</div>
+
+<div class="item">
+ <div class="gia"> 
+   <span> -38%</span>
+ </div>
+ <img src="https://bizweb.dktcdn.net/thumb/medium/100/091/132/products/4-min-b44f4156-7226-4759-a2a2-545531ef7c8d.jpg?v=1468202743280" alt="" class="anhsanpham"width="80px" height="150px">
+ <div class="chuduoi">
+  <p> Giày da converse cao cấp</p>
+  <h4> 1.200.000<sup>đ</sup> </h4>
+  <h3> <del>1.400.000</del> <sup>đ</sup></h3>    
+</div><!--  #chuduoi --> 
+</div>
+
+<div class="item">
+ <div class="gia"> 
+  <span>-38%</span>
+</div>
+<img src="https://bizweb.dktcdn.net/thumb/medium/100/091/132/products/5-min-a5bb63b5-5f5e-4109-ae48-b6f4e3c5a3aa.jpg?v=1468202641487" alt="" class="anhsanpham" width="80px" height="150px">
+<div class="chuduoi">
+  <p> Giày da converse cao cấp</p>
+  <h4> 1.200.000<sup>đ</sup> </h4>
+  <h3> <del>1.400.000</del> <sup>đ</sup></h3>    
+</div><!--  #chuduoi --> 
+</div>
+
+</div> <!-- #owl carousel -->
+</div> <!-- #positionanh -->
+<script src="jquery.min.js"> </script>
+<script src="owl.carousel.min.js"></script>
+<script>
+
+  $('.owl-carousel').owlCarousel({
+    loop:false,
+    margin:0,
+    nav:false,
+    dots:false,
+    responsive:{
+      0:{
+        items:1
+      },
+      600:{
+        items:1
+      },
+      1000:{
+        items:4
+      }
+    }
+  })
+</script>
+<!-- -------------------carousel 3 b --------------------- -->
+<div class="positionanh positionanh3b" >
+  <div class="owl-carousel">
+    <div class="item">
+      <div class="gia"> 
+       <span>-38%</span>
+     </div>
+     <img src="https://bizweb.dktcdn.net/thumb/medium/100/091/132/products/9-min-0f7e3257-9fa9-4aab-8955-0f7701b42ead.jpg?v=1468202641487" alt="" class="anhsanpham" width="80px" height="150px">
+     <div class="chuduoi">
+      <p> Giày da converse cao cấp</p>
+      <h4> 1.200.000<sup>đ</sup> </h4>
+      <h3> <del>1.400.000</del> <sup>đ</sup></h3>    
+    </div>     
+  </div><!--  #item -->
+
+  <div class="item">
+   <div class="gia"> 
+     <span>-38%</span>
+   </div>
+   <img src="https://bizweb.dktcdn.net/thumb/medium/100/091/132/products/13-min.jpg?v=1468201120747" alt="" class="anhsanpham"width="80px" height="150px">
+   <div class="chuduoi" >
+    <p> Giày da converse cao cấp</p>
+    <h4> 1.200.000<sup>đ</sup> </h4>
+    <h3> <del>1.400.000</del> <sup>đ</sup></h3>    
+  </div><!--  #chuduoi --> 
+</div> <!-- #item -->
+
+<div class="item">
+ <div class="gia"> 
+   <span>-38%</span>
+ </div>
+ <img src="https://bizweb.dktcdn.net/thumb/medium/100/091/132/products/14-min-1a6a37f9-ca26-409e-9a85-025cc612fd20.jpg?v=1468199870023" alt="" class="anhsanpham" width="80px" height="150px">
+ <div class="chuduoi" >
+  <p> Giày da converse cao cấp</p>
+  <h4> 1.200.000<sup>đ</sup> </h4>
+  <h3> <del>1.400.000</del> <sup>đ</sup></h3>    
+</div><!--  #chuduoi --> 
+</div>
+
+<div class="item">
+ <div class="gia"> 
+  <span>-38%</span>
+</div>
+<img src="https://bizweb.dktcdn.net/thumb/medium/100/091/132/products/15-min-4bb14283-a8a1-43b4-a2b9-478641035770.jpg?v=1468200566187" alt="" class="anhsanpham"width="80px" height="150px">
+<div class="chuduoi">
+  <p> Giày da converse cao cấp</p>
+  <h4> 1.200.000<sup>đ</sup> </h4>
+  <h3> <del>1.400.000</del> <sup>đ</sup></h3>    
+</div><!--  #chuduoi --> 
+</div>
+
+<div class="item">
+ <div class="gia"> 
+   <span> -38%</span>
+ </div>
+ <img src="https://bizweb.dktcdn.net/thumb/medium/100/091/132/products/19-min-56a50230-94af-4448-b553-d1cdaff4fbd6.jpg?v=1468203935623" alt="" class="anhsanpham"width="80px" height="150px">
+ <div class="chuduoi">
+  <p> Giày da converse cao cấp</p>
+  <h4> 1.200.000<sup>đ</sup> </h4>
+  <h3> <del>1.400.000</del> <sup>đ</sup></h3>    
+</div><!--  #chuduoi --> 
+</div>
+
+<div class="item">
+ <div class="gia"> 
+  <span>  -38%</span>
+</div>
+<img src="https://bizweb.dktcdn.net/thumb/medium/100/091/132/products/21-min-9e8ea0bf-1120-4473-a335-abe09236c810.jpg?v=1468204059610" alt="" class="anhsanpham"width="80px" height="150px">
+<div class="chuduoi">
+  <p> Giày da converse cao cấp</p>
+  <h4> 1.200.000<sup>đ</sup> </h4>
+  <h3> <del>1.400.000</del> <sup>đ</sup></h3>    
+</div><!--  #chuduoi --> 
+</div>
+
+<div class="item">
+ <div class="gia"> 
+   <span> -38%</span>
+ </div>
+ <img src="https://bizweb.dktcdn.net/thumb/medium/100/091/132/products/4-min-b44f4156-7226-4759-a2a2-545531ef7c8d.jpg?v=1468202743280" alt="" class="anhsanpham"width="80px" height="150px">
+ <div class="chuduoi">
+  <p> Giày da converse cao cấp</p>
+  <h4> 1.200.000<sup>đ</sup> </h4>
+  <h3> <del>1.400.000</del> <sup>đ</sup></h3>    
+</div><!--  #chuduoi --> 
+</div>
+
+<div class="item">
+ <div class="gia"> 
+  <span>-38%</span>
+</div>
+<img src="https://bizweb.dktcdn.net/thumb/medium/100/091/132/products/5-min-a5bb63b5-5f5e-4109-ae48-b6f4e3c5a3aa.jpg?v=1468202641487" alt="" class="anhsanpham" width="80px" height="150px">
+<div class="chuduoi">
+  <p> Giày da converse cao cấp</p>
+  <h4> 1.200.000<sup>đ</sup> </h4>
+  <h3> <del>1.400.000</del> <sup>đ</sup></h3>    
+</div><!--  #chuduoi --> 
+</div>
+
+</div> <!-- #owl carousel -->
+</div> <!-- #positionanh -->
+<script src="jquery.min.js"> </script>
+<script src="owl.carousel.min.js"></script>
+<script>
+
+  $('.owl-carousel').owlCarousel({
+    loop:false,
+    margin:0,
+    nav:false,
+    dots:false,
+    responsive:{
+      0:{
+        items:1
+      },
+      600:{
+        items:1
+      },
+      1000:{
+        items:4
+      }
+    }
+  })
+</script>
+<!-- -------------border gach ngang---------------- ------------- -->
+<div class="borderngang">
+
+</div> <!-- borderngang -->
+
+<!-- ----------------------------------backgroundden--------------------------- -->
+<div class="cuoitrang">
+<div class="backgroundden">
+
+  <div class="lienhe">
+    <h3> <span>LIÊN HỆ CHÚNG TÔI</span></h3>
+    <ul>
+     <li > Địa chỉ: 254A Nguyễn Đình Chiểu , Phường 6, Quận 3, Tp. Hồ Chí Minh, Việt Nam</li>
+     <li class="li2">Email: trieu0479@gmail.com </li> </br>
+     <li> Điện thoại: 0169 946 2929 </li>
+   </ul>
+
+ </div><!--  #LIENHE -->
+ <!-- ---------------------gioithieu------------------------------------ -->
+ <div class="gioithieu">
+  <h3> GIỚI THIỆU</h3>
+  <ul>
+   <li> <i class="fa fa-circle"></i>&nbsp; Về chúng tôi</li>
+   <li> <i class="fa fa-circle"> </i>&nbsp;&nbsp;Lịch sử- Hình thành</li> 
+   <li><i class="fa fa-circle"> </i> &nbsp;Tầm nhìn- Sứ Mệnh </li>
+   <li><i class="fa fa-circle"> </i>&nbsp; Bộ máy tổ chức</li>
+   <li> <i class="fa fa-circle"> </i>&nbsp;&nbsp;Hệ thống phân phối</li>
+   <li><i class="fa fa-circle"> </i> &nbsp;Đối tác</li>
+ </ul>
+</div><!--  #gioithieu -->
+
+<div class="gioithieu dichvu ">
+  <h3> DỊCH VỤ</h3>
+  <ul>
+   <li> <i class="fa fa-hand-point-right haha"></i>&nbsp; Dịch vụ 1</li><br>
+   <li><i class="fa fa-hand-point-right  haha"></i>&nbsp; Dịch vụ 2</li> <br>
+   <li><i class="fa fa-hand-point-right haha"></i>&nbsp; Dịch vụ 3 </li><br>
+   <li><i class="fa fa-hand-point-right haha"></i>&nbsp;&nbsp;Hướng Dẫn Đổi hàng</li><br>
+   <li> <i class="fa fa-hand-point-right haha"></i>&nbsp;&nbsp;Hệ thống cửa hàng</li><br>
+   <li><i class="fa fa-hand-point-right haha"></i> &nbsp;Hướng dẫn Đặt hàng</li>
+ </ul>
+</div><!--  #gioithieu -->
+
+<!-- ------------------ thông tin-------------------------- -->
+<div class="gioithieu thongtin ">
+  <h3> THÔNG TIN</h3>
+  <ul>
+   <li> <i class="fa fa-circle"></i>&nbsp; Chính sách riêng tư</li><br>
+   <li><i class="fa fa-circle"></i>&nbsp; Điều khoản và điều kiện</li> <br>
+   <li><i class="fa fa-circle"></i>&nbsp; Chính sách Đổi trả </li><br>
+   <li><i class="fa fa-circle"></i> &nbsp;Chính sách Bảo hành </li>
+ </ul>
+</div><!--  #thongtin -->
+</div> <!-- #backgrounden -->
+
+
 <div class="footer">
-	
-</div> <!-- #footer -->
+  <p> Powered by Nguyen Trieu @2018</p>
+</div>
+
+</div> <!-- #cuoitrang -->
+</div>
 
 
-
-
-
-
-
-
-
-
-
-	</div> <!-- #wrapper -->
+</div> <!-- #wrapper -->
 </body>
 </html>
